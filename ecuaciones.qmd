@@ -1,0 +1,202 @@
+---
+title: "Ecuaciones"
+subtitle: "Ecuación lineales y no lineales"
+date: "Fecha de la Presentación"
+format:
+  revealjs:
+    theme: simple    # Puedes cambiar el tema (simple, black, white, etc.)
+    slide-number: true # Mostrar el número de diapositiva
+    transition: slide # Tipo de transición (slide, fade, etc.)
+    incremental: true # Activar aparición progresiva de los puntos
+    toc: true         # Mostrar tabla de contenidos
+    toc-title: "Tabla de Contenidos"
+    slide-level: 2    # Nivel de encabezado que inicia una nueva diapositiva
+    center: true      # Centrar contenido en las diapositivas
+---
+
+# ¿Qué es una ecuación lineal?
+
+Una ecuación lineal es una igualdad matemática donde la variable (la incógnita) solo aparece elevada a la potencia 1.
+
+**Ejemplo:**
+
+$$2x + 5 = 11$$
+
+![Image of a balance scale](images/balance.png)
+
+
+Para resolverla, debemos mantener la balanza en equilibrio.
+
+
+---
+
+![](images/temperatura.png)
+
+---
+
+Ejercicios:
+
+Resuelva las siguientes ecuaciones lineales:
+
+1. $3x + 4 = 10$
+2. $5x - 2 = 13+5(x+2)$
+3. $x(x+2) + 3 = x(x-6) - 3(x-1)$
+4. $\frac{3}{2x-4}-\frac{5}{x+3}=\frac{2}{x-2}$
+
+---
+
+![](images/circuitos.png)
+
+---
+
+## Aplicaciones de las ecuaciones lineales
+
+¡Claro! Aquí tienes la versión en Markdown de la explicación adaptada para estudiantes de cuarto grado, con un formato que puedes utilizar directamente en plataformas como GitHub, Notion o para generar archivos PDF:
+
+## **Resolviendo Problemas Matemáticos: ¡Paso a Paso!**
+
+### **¡Descubramos el misterio de las matemáticas!**
+
+¿Alguna vez te has preguntado cómo resolver esos problemas que parecen tan difíciles? ¡No te preocupes! Con estos sencillos pasos, podrás convertirte en un auténtico detective de las matemáticas y resolver cualquier enigma.
+
+1. **Lee con cuidado:**
+   * **¿Qué nos preguntan?**  Lee el problema varias veces para entender bien qué es lo que queremos saber.
+   * **¿Qué datos nos dan?** Identifica los números y las palabras clave que te ayudarán a resolver el problema.
+
+2. **Busca el misterio:**
+   * **¿Cuál es el número desconocido?** Ese número es nuestro misterio.
+   * **Asigna una letra:** Podemos usar cualquier letra para representar ese número, como X o N.
+
+3. **Dibuja y explica:**
+   * **Visualiza el problema:** Haz un dibujo o diagrama para entender mejor lo que está pasando.
+   * **Etiqueta el dibujo:** Escribe los datos que conoces en tu dibujo.
+
+4. **Anota las pistas:**
+   * **¿Qué sabemos sobre el problema?** Escribe todas las pistas que te dan.
+   * **Organiza la información:** Haz una lista de los datos que tienes.
+
+5. **Encuentra la ecuación:**
+   * **Une las pistas:** Crea una ecuación matemática usando las pistas que tienes.
+   * **Recuerda:** Una ecuación es como una balanza, ambos lados deben ser iguales.
+
+6. **Resuelve el misterio:**
+   * **Usa tus habilidades matemáticas:** Resuelve la ecuación para encontrar el valor del número desconocido.
+
+7. **Comprueba la respuesta:**
+   * **¿Tiene sentido?** Revisa si tu respuesta coincide con las pistas del problema.
+
+### **¡Ejemplo!**
+* **Problema:** Juan tiene el doble de canicas que María. Si María tiene 10 canicas, ¿cuántas tiene Juan?
+* **Paso 2:** Llamamos "C" al número de canicas de Juan.
+* **Paso 4:** Sabemos que C (canicas de Juan) es el doble de 10 (canicas de María).
+* **Paso 5:** Nuestra ecuación es: C = 10 x 2.
+* **Paso 6:** C = 20. ¡Juan tiene 20 canicas!
+
+### **¡A practicar!**
+
+[Aquí puedes incluir ejercicios sencillos para que los estudiantes practiquen]
+
+### **¡Convierte las matemáticas en una aventura!**
+
+**¡Recuerda!** La matemática es como un juego de detectives. ¡Busca las pistas, crea tu ecuación y resuelve el misterio!
+
+**Tips para el profesor:**
+
+* **Utiliza ejemplos cotidianos.**
+* **Haz dibujos y diagramas.**
+* **Anima a los estudiantes a participar.**
+* **Sé claro y conciso.**
+
+
+---
+ 
+ ### Ejemplos
+
+---
+
+
+Dos ciudades están comunicadas por una carretera. Un auto sale de la ciudad
+B a la 1:00 p.m. y avanza a una velocidad constante de 40 mi/h hacia la ciudad
+C. Treinta minutos después, otro auto sale de la ciudad B y avanza hacia
+C a una velocidad constante de 55 mi/h. Si no consideramos las longitudes
+de los autos, ¿a qué hora el segundo auto alcanzará al primero?
+
+---
+**Mezcla de productos químicos**
+Un químico tiene 10 mililitros de una solución que contiene una concentración al 30% de ácido. ¿Cuántos mililitros de ácido puro deben agregarse para aumentar la concentración al 50%?
+
+
+---
+
+ **Interes compuesto**
+ Si una suma de dinero $C$ (capital inicial) se invierte a una tasa de interés simple $i$ (expresado como decimal), entonces el interés simple $I$ al final de $t$
+años es $$I = C · i · t$$
+
+Una empresa de inversiones tiene \$100,000 de un cliente para invertir y decide
+invertirlos en dos acciones, A y B. La tasa anual de interés esperada o interés
+simple para la acción A es 15\%, pero hay un riesgo implicado y el cliente no
+desea invertir más de \$50,000 en esta acción. Se anticipa que la tasa anual de
+interés en la acción B, más estable, es 10\%. Determine si hay una forma de invertir el dinero para que el interés anual sea:
+
+*  \$12,000
+*  \$13,000
+
+---
+
+# Ecuación cuadrática
+
+Una ecuación cuadrática es una ecuación de segundo grado, es decir, la variable (la incógnita) aparece elevada al cuadrado.
+
+**Ejemplo:**
+
+$$x^2 + 3x - 4 = 0$$
+
+Para resolverla, podemos utilizar la fórmula general:
+
+$$x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}$$
+
+---
+
+La ecuación cuadrática es una de las más importantes en matemáticas, ya que aparece en muchos problemas de la vida cotidiana. Esta pueden tener 
+* una solución real
+* dos soluciones reales
+* dos soluciones complejas
+Para estudiar las soluciones siempre estudiamos el discriminante $b^2-4ac$.
+
+**Recuerda que $\sqrt{-1}=i$  así que si tienes una raíz cuadrada negativa, la solución es compleja.**
+
+---
+
+### Ejemplos 
+
+1. $x^2 - 5x + 6 = 0$
+
+2. $x^2 + 4x + 4 = 0$
+
+3. $x^2 + 2x + 5 = 0$
+
+4. $\frac{2x}{x-3}+\frac{5}{x+3}=\frac{36}{x^2-9}$
+
+---
+
+## Problemas de ecuaciones cuadráticas
+
+1. Un rectángulo tiene un área de 24 m². Si el largo es 2 m más que el ancho, ¿cuáles son las dimensiones del rectángulo?
+
+---
+
+2. Un proyectil es lanzado desde el suelo con una velocidad inicial de 20 m/s. La altura del proyectil en metros después de $t$ segundos es $h(t) = -5t^2 + 20t$. ¿Cuánto tiempo tarda el proyectil en alcanzar una altura de 15 m?
+
+---
+
+3. Una caja con base cuadrada y sin tapa ha de construirse a partir de una pieza
+cuadrada de hojalata, cortando un cuadrado de 3 pulgadas en cada esquina y
+doblando los lados. Si la caja debe contener 48 pulgadas cúbicas $(48 \, \text{pulg}^3)$, ¿de qué tamaño debe ser la pieza de hojalata a usarse?
+
+![](images/caja.png)
+
+
+
+
+
+
