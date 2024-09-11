@@ -1,0 +1,48 @@
+---
+title: "Quiz MMAF"
+author: "Abel Alvarez"
+date: "09/09/2024"
+format: pdf
+header-includes:
+  - |
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhf{}
+    \cfoot{\thepage}
+    \setlength{\headheight}{15pt}
+---
+
+
+1. Factorice los siguientes ejercicios 
+
++ $x^3-27y^3$
+
++ $x^2-4x+4$
+
++ $x^28x+15$
+
+2. Simplifique las siguientes expresiones
+
++  $\frac{x^2 - 4x + 4}{x^2 - 2x - 8}$
+
++ $(3x+2)^2 -5x+10=(3x-2)^2+5(x-9)$
+
+
+3. Resuelva las siguientes inecuaciones 
+
++ $3(x-2) +5x-4> x+6$
+
++  $\frac{(2-x)(5+3x)}{(x+6)-3}<0$
+
+
+
+**Sustentación del reto**
+
+
+# Reto
+Dos empresas de construcción de maquinaria industrial, **Interprase** y **Soluciones Express**, están desarrollando nuevos modelos de máquinas. **Interprase** está trabajando en la máquina modelo A, que requiere una inversión inicial de $\$100,000$ en investigación y desarrollo. Los costos de producción de esta máquina aumentan cuadráticamente con el tiempo, siguiendo la la regla $90t^2$, donde $t$ es el tiempo en meses desde el inicio de su fabricación.
+
+Por otro lado, **Soluciones Express** está desarrollando la máquina modelo B, que necesita una inversión inicial de $\$150,000$. Los costos de producción de esta máquina aumentan cuadráticamente con el tiempo, siguiendo la regla $50t^2$. Ambas máquinas tienen que pagar un impuesto que aumenta linealmente con el tiempo, siguiendo la regla $10t$. Además las dos maquinas generan ingresos mensuales constantes de $\$20,000$ para sus respectivas empresas.
+
+¿Después de cuántos meses el costo total de producción del modelo B (considerando la inversión inicial, los costos de producción y costos de lso seguros) igualará al doble de la
+inversión inicial de $150,000?

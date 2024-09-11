@@ -1,0 +1,92 @@
+---
+title: "Taller MMAF"
+author: "Abel Alvarez"
+date: "05/09/2024"
+output:
+  pdf_document:
+    keep_tex: False
+fontsize: 12pt
+geometry: margin=1in
+pagestyle: headings
+
+header-includes:
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+
+
+
+
+---
+
+# Ejercicios
+
+1. Factorice las siguientes expresiones
+
+a. $x^2 - 4$
+
+b. $x^2 - 2x - 8$
+
+c. $x^2 + 6x + 9$
+
+d. $x^2 - 4x + 4$
+
+e. $27x^3-8y^3$
+
+2. Simplifique las siguientes expresiones
+
+a. $\frac{3x^2 - 12x}{x^2 - 4}$
+
+b. $\frac{x^2 - 2x - 8}{x^2 - 4}$
+
+c. $\frac{x^2 + 6x + 9}{x^2 + 3x + 2}$
+
+d. $\frac{x^2 - 4x + 4}{x^2 - 2x - 8}$
+
+3. Resuelva las siguientes ecuaciones
+
+a. $x^2 - 4 = 0$
+
+b. $x^2 - 2x - 8 = 0$
+
+c. $(3x+2)^2 -5x+10=(3x-2)^2+5(x-9)$
+
+d. $(2x-5)^2=4x^2-9$
+
+4. Resuelva las siguientes inecuaciones
+
+a. $3(x-2) +5x-4> x+6$
+b. $x^2 - 4 > 0$
+c. $x^2 - 2x - 8 < 0$
+d. $\frac{(2-x)(5+3x)}{(x+6)-3}<0$
+e.  $\frac{3x^2-2x-1}{x^2-4x+3}>0$
+
+
+5. Resuelva los siguientes problemas 
+
+a. **Construcción de marcos de alambre** Dos marcos cuadrados
+se van a construir de un alambre de 100 pulgadas de largo.
+Si el área encerrada por un marco debe ser de la mitad del
+área encerrada por el otro, encuentre las dimensiones de
+cada marco. (No considere el grueso del alambre.)
+
+b.  **Descuento por cantidad** Una compañía vende zapatos para
+correr a un distribuidor en $40 el par si éste pide menos de
+50 pares; si pide 50 pares o más (hasta 600), el precio por
+par se reduce a un ritmo de $0.04 veces el número pedido.
+¿Cuántos pares puede comprar el distribuidor por $8400?
+
+c. **Concentración de medicamento** Para tratar la arritmia (pulsación irregular del corazón), por una vena se introduce un
+medicamento en el torrente sanguíneo. Suponga que la con-
+centración $c$ del medicamento después de $t$ horas está dada
+por $c=3.5t/(t+1)mg/L$. Si el nivel terapéutico mínimo
+es 1.5 mg/L, determine cuándo se rebasa este nivel.
+
+d. **Compra de un auto** Un consumidor está tratando de decidir
+si comprar el auto A o el B. El auto A cuesta $20,000 y tiene
+un rendimiento de combustible de 30 millas por galón, y el
+seguro cuesta $1000 por año. El auto B cuesta $24,000 y
+tiene un rendimiento de 50 millas por galón y el seguro
+cuesta $1200 por año. Suponga que el consumidor recorre
+15,000 millas por año y que el precio del combustible permanece constante en $3 por galón. Con base sólo en estos
+datos, determine cuánto tiempo transcurrirá para que el
+costo total del auto B sea menor que el del auto A.
