@@ -1,0 +1,107 @@
+---
+title: "Primer Parcial MMAF"
+author: "Pr Abel Alvarez"
+date: ""
+format: pdf
+header-includes:
+  - |
+    \usepackage{fancyhdr}
+    \pagestyle{fancy}
+    \fancyhf{}
+    \cfoot{\thepage}
+    \setlength{\headheight}{8pt}
+  -  |
+    \usepackage[top=2cm, bottom=2cm, left=3cm, right=3cm]{geometry}
+---
+## Primer parcial de MMAF
+
+Por favor tenga en cuenta las siguientes instrucciones:
+
+1. Responda todas las preguntas.
+2. Justifique sus respuestas.
+3. No se permite el uso de dispositivos electrónicos.
+4. La hoja de respuestas debe ser entregada al final del examen y debe estar marcada con su nombre y número de identificación e igual que el cuestionario.
+
+
+## Cuestionario
+
+1. Un equipo de trabajo compuesto por 8 personas puede completar un proyecto en 8 días trabajando a un ritmo constante. Si el equipo se incrementa en un 150% en tamaño,
+a. ¿cuánto tiempo les tomaría completar el mismo proyecto? si la eficiencia del equipo se mantiene constante.
+
+b. ¿cuánto tiempo les tomaría completar el mismo proyecto? si la eficiencia del equipo disminuye en un 20% debido a la complejidad adicional en la coordinación.
+
+2. Factorice las expresiones siguientes:
+
+a. $x^2 - 9$
+
+b. $16x^2-8x+1$
+
+c. $8x^3 - 27y^3$
+
+d. $x^2-5x+4$
+
+e. $2x^2 + 7x + 3$
+
+
+3. Simplifique las expresiones siguientes:
+
+a. $3(3x-4)+4[3(x+2)-x(x-2)]$
+
+b. $\frac{2x^2 + 5x + 3}{x^2 + 2x}$
+
+
+4. Resuelva las siguientes ecuaciones e inecuaciones:
+
+a. $x^2-5x+6=0$
+
+
+b. $\frac{(x^2-x-6)(x-1)}{x^2-16}>0$
+
+
+5. El crecimiento lineal de una población se puede modelar con $y = 2x + 10$,
+donde $y$ es la población en miles y $x$ el tiempo en meses. 
+
+a. Grafique la función y determine
+
+b. La población al cabo de 5 meses.
+
+c. La población inicial y la tasa de crecimiento.
+
+### Sustentación del reto
+
+Si suponemos que el mantenimiento del cable  esta en función del diámetro del cable. Si el costo de mantenimiento  esta determinado por la función:
+
+$$C(d)=-2d^2+37d-8$$
+
+y la gráfica de la función esta determinada por 
+
+
+```{python}
+#| echo: false
+#| fig.width: 1
+#| fig.height: 1
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Define the function
+def C(d):
+    return -2*d**2 +37*d - 8
+
+# Generate values for d
+d_values = np.linspace(9, 10, 400)
+C_values = C(d_values)
+
+# Plot the function
+plt.figure(figsize=(8, 6))
+plt.plot(d_values, C_values, label='$C(d) = -2d^2 + 37d - 8$')
+plt.title('Costo de Mantenimiento en función del Diámetro del Cable')
+plt.xlabel('Diámetro del Cable (d)')
+plt.ylabel('Costo de Mantenimiento (C)')
+plt.legend()
+plt.grid(True)
+
+plt.show()
+```
+
+Determine cual seria el costo máximo del mantenimiento del cable y el costo mínimo del mantenimiento del cable. Además, si se sabe que la función del desgate del cable esta dada por $D(d)=d^2-5d+6$, describa como se podría determinar el diámetro del cable en el consto máximo y el costo mínimo del mantenimiento del cable.
