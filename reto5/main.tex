@@ -1,0 +1,95 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Deflexión de una viga en voladizo}
+\author{}
+\date{}
+\maketitle
+
+
+En zonas pobres de Cali, las condiciones de vida y las infraestructuras básicas presentan retos significativos. Las viviendas suelen ser construidas con recursos limitados y materiales económicos, lo que hace crucial garantizar que estas estructuras sean seguras y duraderas. Un elemento común en estas construcciones es la viga en voladizo, que puede formar parte de techos, balcones, y otros componentes estructurales.
+
+En una comunidad ubicada en las laderas de Cali, las viviendas son construidas principalmente con madera y concreto. para extender los techos sobre las áreas exteriores, se utilizan vigas en voladizo de esta forma las vigas de voladizo son utilizadas para extender techos sobre las áreas exteriores, proporcionando sombra y protección contra la lluvia. Un ingeniero de calculista determinó que la deflexión de una viga en voladizo de madera de 6 metros de longitud y 10 cm de ancho, esta dada por la función.
+
+$$d(x)=\frac{1}{16000}(60x^2-x^3)$$
+
+ 
+
+donde $d$
+ y  $x$
+ se expresan en centímetros.
+
+\begin{enumerate}
+    \item Encontrar $x$ cuando $d(x)=0.125\, cm$ y cuando $d(x)=1\, cm$
+\item Graficar la función $d(x)$ en el intervalo $[0,200]$ 
+ y determinar la deflexión en $x=50$ y $x=70$
+ \item Estime usando la gráfica los valores de máxima y mínima deflexión en el intervalo $[0,200]$
+ \item Determine los valores de 
+donde la deflexión $d(x)$ es cero en el intervalo $[50,70]$
+ y verifica que las solución analítica y gráfica coinciden.
+ \item ¿En qué punto de la viga la deflexión es igual a la mitad de la deflexión máxima? Para ello use la gráfica del ejercicio anterior
+\end{enumerate}
+
+
+
+
+¿En qué punto de la viga la deflexión es igual a la mitad de la deflexión máxima? Para ello use la gráfica del ejercicio anterior
+
+\section*{1. Encontrar \( x \) cuando \( d(x) = 0.125 \) y \( d(x) = 1 \)}
+Para encontrar los valores de \( x \), sustituimos en la función los valores correspondientes:
+
+\subsection*{Caso \( d(x) = 0.125 \):}
+\[
+\frac{1}{16000}(60x^3 - x^2) = 0.125
+\]
+Multiplicando ambos lados por 16000:
+\[
+60x^3 - x^2 = 2000
+\]
+Reordenando la ecuación:
+\[
+60x^3 - x^2 - 2000 = 0
+\]
+Esta es una ecuación cúbica que podemos resolver usando el teorema de los ceros racionales y el teorema del factor.
+
+\subsection*{Caso \( d(x) = 1 \):}
+\[
+\frac{1}{16000}(60x^3 - x^2) = 1
+\]
+Multiplicamos ambos lados por 16000:
+\[
+60x^3 - x^2 = 16000
+\]
+Reordenando la ecuación:
+\[
+60x^3 - x^2 - 16000 = 0
+\]
+
+\section*{2. Gráfica de la función en el intervalo \([0, 200]\)}
+La gráfica de la función \( d(x) = \frac{1}{16000}(60x^3 - x^2) \) se puede visualizar en el intervalo \([0, 200]\) para estimar la deflexión en puntos específicos. A continuación, se debe graficar la curva en este intervalo.
+
+Marcamos los valores de deflexión en \( x = 50 \) y \( x = 70 \), y calculamos:
+\[
+d(50) = \frac{1}{16000}(60(50)^3 - (50)^2)
+\]
+\[
+d(70) = \frac{1}{16000}(60(70)^3 - (70)^2)
+\]
+
+\section*{3. Estimación de máxima y mínima deflexión}
+Usando la gráfica de la función, podemos observar visualmente los puntos donde la deflexión alcanza un máximo y un mínimo en el intervalo \([0, 200]\). Estos valores se pueden estimar directamente desde la gráfica.
+
+\section*{4. Valores de \( x \) donde la deflexión es cero en el intervalo \([50, 70]\)}
+Resolvemos la ecuación:
+\[
+\frac{1}{16000}(60x^3 - x^2) = 0
+\]
+Aplicando factorización, encontramos los puntos donde la deflexión es cero en el intervalo dado.
+
+\section*{5. Punto de la viga donde la deflexión es la mitad de la máxima deflexión}
+Una vez encontrada la deflexión máxima de la viga, calculamos la mitad de este valor y, usando la gráfica, estimamos el valor de \( x \) donde la deflexión es la mitad del valor máximo. Con este valor se procede a igualar la ecuación de deflexión con el valor encontrado.
+
+\end{document}
