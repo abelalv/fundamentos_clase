@@ -1,63 +1,57 @@
+---
+title: "Taller Algebra lineal"
+format: pdf
+geometry: margin=2cm
+---
+
+1. Encuentre la función inversa ($f^{-1}$), y de la función $f$ dada y verifique que $(f\circ f^{-1})(x)=x$ y que $(f^{-1}\circ f)(x)=x$
 
 
+* $f(x)=\dfrac{3x+2}{2x-5}$
+* $f(x)=5x^2+2$,  con $x\geq 0$
+* $f(x)=\sqrt{4-x^2},$ con $0\leq x\leq 2$
+* $f(x)=x^2-4x+3$, con $x\leq 2$
 
+		
+2. Dada la función $$f(x)=\dfrac{ax+b}{cx-a},$$ determine $f^{-1}(x)$ y compruebe que $f(x)=f^{-1}(x)$
+		
+Resuelva las ecuaciones
 
-		 Encuentre la función inversa ($f^{-1}$), y de la función $f$ dada y verifique que $(f\circ f^{-1})(x)=x$ y que $(f^{-1}\circ f)(x)=x$
-		\
-			\item $f(x)=\dfrac{3x+2}{2x-5}$
-			\item $f(x)=5x^2+2$,  con $x\geq 0$
-			\item $f(x)=\sqrt{4-x^2},$ con $0\leq x\leq 2$
-			\item $f(x)=x^2-4x+3$, con $x\leq 2$
-		\end{enumerate}
+* $4^x \cdot \left(\dfrac{1}{2}\right)^{3-2x} = 8 \cdot (2^x)^2$
+* $27^{x-1}=9^{2x-3}$
+
 		
-		\item Dada la función $$f(x)=\dfrac{ax+b}{cx-a},$$ determine $f^{-1}(x)$ y compruebe que $f(x)=f^{-1}(x)$
-		
-		\item Resuelva las ecuaciones
-		\begin{enumerate}
-			\item $4^x \cdot \left(\dfrac{1}{2}\right)^{3-2x} = 8 \cdot (2^x)^2$
-			\item $27^{x-1}=9^{2x-3}$
-		\end{enumerate}
-		
-		\item Encontrar una función exponencial de la forma $f(x)=ba^x+c$ que tenga la gráfica dada
-		\begin{figure}[H]
-			\centering
-			\includegraphics[width=0.7\linewidth]{"../../../../../../private/var/folders/fw/fywrcj014vs8hkpj1d_n1pj40000gn/T/com.apple.Photos.NSItemProvider/uuid=53E124FA-EA23-4EFA-975A-74D5800A8376&code=001&library=1&type=1&mode=1&loc=true&cap=true.jpeg/Imagen 4-10-24 a las 1.32 p.m."}
+4. Encontrar una función exponencial de la forma $f(x)=ba^x+c$ que tenga la gráfica dada
+![Gráfica](image1.png)
+
+5. Use la grafica de la función exponencial para graficar las funciones siguientes
+* $e^{-x}$
+* $-e^x$
+* $e^{x+4}$
+* $e^x+4$
 			
-		\end{figure}
+
 		
-		\item Use la gráfica de $y=e^x$ para bosquejar a mano las siguientes gráficas
-		\begin{enumerate}
-			\item $e^{-x}$
-			\item $-e^x$
-			\item $e^{x+4}$
-			\item $e^x+4$
-			
-		\end{enumerate}
+6. Encuentre los ceros de la función $f(x)=x^3(4e^{4x})+3x^2e^{4x}$
 		
-		\item Encuentre los ceros de la función $f(x)=x^3(4e^{4x})+3x^2e^{4x}$
+7.  Simplifique la expresión $$\dfrac{(e^x-e^{-x})^2-(e^x+e^{-x})^2}{(e^x+e^{-x})^2}$$
 		
-		\item Simplifique la expresión $$\dfrac{(e^x-e^{-x})^2-(e^x+e^{-x})^2}{(e^x+e^{-x})^2}$$
+8. Despeje $t$ usando logaritmos con base $a$
+
+* $A=Ba^{Ct}+D$
+* $L=Ma^{t/N}-P$
+
 		
-		\item Despeje $t$ usando logaritmos con base $a$
-		\begin{enumerate}
-			\item $A=Ba^{Ct}+D$
-			\item $L=Ma^{t/N}-P$
-		\end{enumerate}
+9. Resuelva las ecuaciones
+
+* $\log x^2=\log(-3x-2)$
+* $\ln x^2=\ln(12-x)$
+* $e^{2\ln x}=9$
+
 		
-		\item Resuelva las ecuaciones
-		\begin{enumerate}
-			\item $\log x^2=\log(-3x-2)$
-			\item $\ln x^2=\ln(12-x)$
-			\item $e^{2\ln x}=9$
-			
-		\end{enumerate}
+10. Un diagrama de un circuito eléctrico sencillo formado por un resistor y un inductor se muestra en la figura:
 		
-		\item Un diagrama de un circuito eléctrico sencillo formado por un resistor y un inductor se muestra en la figura:
-		
-		\begin{figure}[H]
-			\centering
-			\includegraphics[width=0.4\linewidth]{"../../../../../../private/var/folders/fw/fywrcj014vs8hkpj1d_n1pj40000gn/T/com.apple.Photos.NSItemProvider/uuid=391DCE96-D66A-42A4-84CA-AC08F6C0AAA4&code=001&library=1&type=1&mode=1&loc=true&cap=true.jpeg/Imagen 4-10-24 a las 1.58 p.m."}
-			
-		\end{figure}
-		La corriente $I$ en el tiempo $t$ está dada por la fórmula $I=20e^{-Rt/L}$ donde $R$ es la resistencia  y $L$ es la inductancia. De esta ecuación despeje $t$.
+![Gráfica](image.png)
+
+La corriente $I$ en el tiempo $t$ está dada por la fórmula $I=20e^{-Rt/L}$ donde $R$ es la resistencia  y $L$ es la inductancia. De esta ecuación despeje $t$.
 		
