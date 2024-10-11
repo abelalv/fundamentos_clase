@@ -1,0 +1,155 @@
+---
+title: "Pontificia Universidad Javeriana"
+author: "MMAF"
+date: "2024-09-30"
+format: 
+  pdf:
+    documentclass: article  # o cualquier otra clase de documento LaTeX
+    keep-tex: true  # para mantener el archivo .tex generado
+    toc: false # para incluir tabla de contenidos, si lo deseas
+    toc-depth: 2  # niveles de la tabla de contenidos
+    number-sections: true  # para numerar las secciones
+    geometry: "margin=1in"  # para ajustar los márgenes
+editor: visual  # si prefieres utilizar el editor visual
+---
+
+De las siguientes funciones grafique 
+
+- $-f(x)$
+
+- $f(-x)$
+
+- $f(x) + 2$
+
+- $f(x) - 2$
+
+- $2f(x)$
+
+- $\frac{1}{2}f(x)$
+
+```{python}
+#| echo: false
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Definir la función polinomial de segundo orden
+def polinomio_segundo(x):
+    return 2*x**2 - 3*x + 1
+
+x = np.linspace(-10, 10, 400)
+y = polinomio_segundo(x)
+
+# Graficar
+plt.figure(figsize=(6, 4))
+plt.plot(x, y)
+plt.title('fUNCIÓN')
+plt.xlabel('x')
+plt.ylabel('f(x)')
+plt.grid(True)
+plt.legend()
+plt.show()
+```
+
+```{python}
+#| echo: false
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Definir la función polinomial de segundo orden
+def polinomio_segundo(x):
+    return np.exp(x)
+
+x = np.linspace(-3, 3, 400)
+y = polinomio_segundo(x)
+
+# Graficar
+plt.figure(figsize=(6, 4))
+plt.plot(x, y)
+plt.title('fUNCIÓN')
+plt.xlabel('x')
+plt.ylabel('f(x)')
+plt.grid(True)
+plt.legend()
+plt.show()
+```
+
+```{python}
+#| echo: false
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Definir la función polinomial de segundo orden
+def polinomio_segundo(x):
+    return x**(1/3)
+
+x = np.linspace(-2, 2, 400)
+y = polinomio_segundo(x)
+
+# Graficar
+plt.figure(figsize=(6, 4))
+plt.plot(x, y)
+plt.title('fUNCIÓN')
+plt.xlabel('x')
+plt.ylabel('f(x)')
+plt.grid(True)
+plt.legend()
+plt.show()
+```
+
+
+```{python}
+#| echo: false
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Definir la función polinomial de segundo orden
+def polinomio_segundo(x):
+    return x**3 - x**2 + 2*x - 7
+
+x = np.linspace(-2.5, 2.5, 400)
+y = polinomio_segundo(x)
+
+# Graficar
+plt.figure(figsize=(6, 4))
+plt.plot(x, y)
+plt.title('fUNCIÓN')
+plt.xlabel('x')
+plt.ylabel('f(x)')
+plt.grid(True)
+plt.legend()
+plt.show()
+```
+
+
+```{python}
+#| echo: false
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Definir la función polinomial de segundo orden
+def polinomio_segundo(x):
+    return -x**3 - x**2 + 2*x - 7
+
+x = np.linspace(-2.5, 2.5, 400)
+y = polinomio_segundo(x)
+
+# Graficar
+plt.figure(figsize=(6, 4))
+plt.plot(x, y)
+plt.title('fUNCIÓN')
+plt.xlabel('x')
+plt.ylabel('f(x)')
+plt.grid(True)
+plt.legend()
+plt.show()
+```
+
+
+
+
+
