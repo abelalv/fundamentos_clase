@@ -1,0 +1,128 @@
+---
+title: "Taller MMAF"
+author: "Pontificia Universidad Javeriana - Cali"
+format: pdf
+geometry: "left=25mm, right=25mm, top=20mm, bottom=20mm"
+fontsize: 11pt
+colorlinks: true
+linkcolor: blue
+urlcolor: blue
+citecolor: blue
+header-includes:
+  - \usepackage{amsmath,amssymb,amsthm,textcomp}
+  - \usepackage{multicol}
+  - \usepackage{tikz}
+  - \usepackage{booktabs}
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \lfoot{Taller}
+  - \rfoot{Page \thepage\ /\ \pageref*{LastPage}}
+---
+
+# Taller MMAF
+
+## Instrucciones
+A continuación, encontrarás varios ejercicios relacionados con identidades y funciones trigonométricas, fuerzas en el plano y análisis de sucesiones.
+
+1. **Simplifica cada una de las siguientes expresiones usando identidades trigonométricas de ángulos dobles y suma de ángulos.**
+   
+   - $sin(2\theta)+cos(2\theta)$
+   - $tan(2\alpha)$
+   - $cos(45^\circ+30^\circ)$
+   - $sin(60^\circ-30^\circ)$
+
+2. **Encuentra el valor exacto de las siguientes expresiones utilizando funciones trigonométricas inversas.**
+
+| **Función** | $0$           | $\dfrac{\pi}{6}$               | $\dfrac{\pi}{4}$               | $\dfrac{\pi}{3}$           | $\dfrac{\pi}{2}$       |
+|-------------|---------------|-----------------------|-----------------------|-------------------|---------------|
+| $\cos$    | $1$           | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{1}{2}$     | $0$           |
+| $\sin$    | $0$           | $\frac{1}{2}$        | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{3}}{2}$ | $1$      |
+| $\tan$    | $0$           | $\frac{1}{\sqrt{3}}$ | $1$                  | $\sqrt{3}$        | undefined     |
+
+
+   - $arcsin(sin(3\pi/4))$
+   - $arctan(tan(-\pi/3))$
+   - $arccos(cos(\pi))$
+   - $tan(arctan(3)+arctan(2))$
+
+3. **Determina si las siguientes ecuaciones son identidades trigonométricas.**
+   
+   - $sin^2(x)+cos^2(x)=1$
+   - $1+tan^2(x)=sec^2(x)$
+   - $sin(x+y)=sin(x)cos(y)+cos(x)sin(y)$
+   - $cos(x+y)=cos(x)cos(y)-sin(x)sin(y)$
+
+4. **Encuentra el valor exacto de las siguientes expresiones si $sin\theta=3/5$ y $\theta$ está en el segundo cuadrante.**
+   
+   - $cos(2\theta)$
+   - $sin(2\theta)$
+   - $tan(2\theta)$
+   - $cot(2\theta)$
+
+5. **Dos fuerzas actúan sobre un objeto en un punto de origen. La fuerza $F_1=80\,\text{N}$ actúa en dirección de $30^\circ$ respecto al eje horizontal, y la fuerza $F_2=60\,\text{N}$ actúa en dirección de $120^\circ$ respecto al mismo eje.**
+   
+   - Descompón las fuerzas $F_1$ y $F_2$ en sus componentes horizontales y verticales.
+   - Calcula la fuerza resultante $F_R$ sumando las componentes horizontales y verticales de $F_1$ y $F_2$.
+   - Encuentra el ángulo $\theta$ que forma la fuerza resultante con el eje horizontal.
+   - Verifica usando identidades de ángulo doble que el ángulo resultante $\theta$ puede expresarse mediante la combinación de las direcciones de $F_1$ y $F_2$.
+
+
+6. Problemas con los teoremas del seno y coseno
+
+    - **(Encuentra un lado desconocido)**  En un triángulo $\triangle ABC$, los lados $a$, $b$, y $c$ miden respectivamente 7 cm, 5 cm, y el ángulo opuesto a $c$, $\angle C$, es de 60°. Calcula la longitud del lado $c$.
+
+    - **(Encuentra un ángulo desconocido)**   En un triángulo $\triangle ABC$, los lados $a$, $b$, y $c$ miden 8 cm, 6 cm y 10 cm respectivamente. Calcula el valor del ángulo $\angle A$ usando el teorema del coseno.
+
+    - **(Encuentra un lado desconocido)**  En un triángulo $\triangle ABC$, conocemos el ángulo $\angle A = 40^\circ$, el ángulo $\angle B = 75^\circ$ y el lado $a = 10$ cm. Calcula la longitud del lado $b$.
+
+    - **(Encuentra un ángulo desconocido)**  En un triángulo $\triangle ABC$, los lados $a$ y $b$ miden respectivamente 12 cm y 15 cm, y el ángulo opuesto a $a$, $\angle A$, es de 35°. Calcula el valor del ángulo $\angle B$.
+
+
+
+
+
+
+
+
+
+
+6. **Modifique el código usado en el cuaderno 8 en Colab y visualice las siguientes sucesiones. Determine a partir de la gráfica, si la sucesión converge o diverge.**
+   
+   - $a_n=\dfrac{1}{n^2}$
+   - $a_n=(-1)^n\dfrac{1}{n}$
+   - $a_n=sin\left(\frac{1}{n}\right)$
+   - $a_n=cos(n^2)$
+
+7. **Determine la convergencia o divergencia de las siguientes sucesiones.**
+   
+   - $\Big(\dfrac{2n^2+3n+1}{6n^2+1}\Big)^3$
+   - $\sqrt{\dfrac{n^2+3n^3}{n^3+1}}$
+   - $\dfrac{(3n-1)(n+2)}{(n+3)(n-5)}$
+   - $\dfrac{n}{4n^2+25}$
+   - $\sqrt{2n^2+5}-n$
+
+8. **Suponga que se define una sucesión de forma recurrente de la forma $a_{n+1}=\dfrac{a_n}{2}+\dfrac{1}{2}$ con $a_1=0$. Calcule según esta recurrencia $a_2,a_3,a_4,a_5$. Suponga que $\lim_{n\to\infty}a_n=L$. ¿Cuál es el valor de $L$?**
+
+
+9. Realice las siguientes operaciones entre numéros complejos.
+   
+   - $(3+2i)(1-4i)$
+   - $\dfrac{1+i}{1-i}$
+   - $(2+3i)^2$
+   - $\dfrac{1}{1+i}$
+
+10. Encuentre el valor de $r=a^2+b^2$ y $\theta=\arctan\left(\dfrac{b}{a}\right)$, es decir su representación polar, para los siguientes números complejos.
+   
+   - $z=3+4i$
+   - $z=-2-3i$
+   - $z=1+i$
+   - $z=-1+i$ 
+
+11.  Sea los  números complejos en su representación polar, escribe loe su forma cartesiana 
+
+  - $z=3\  \angle\  -\dfrac{\pi}{3}rad$
+
+  - $z=2\  \angle\  \dfrac{\pi}{4}rad$
+  
+  - $z=5\ \angle\  \dfrac{3\pi}{2}rad$
+
